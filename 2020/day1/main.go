@@ -54,6 +54,7 @@ func main() {
 	fmt.Printf("Run time %s", elapsed)
 }
 
+// Checks to see if a pair sums to 2020 and returns the answer
 func lookForPairSum(sum int, entries []int) (int, error) {
 	for i := range entries {
 		for j := i; j < len(entries); j++ {
@@ -66,7 +67,7 @@ func lookForPairSum(sum int, entries []int) (int, error) {
 	return 0, ErrNoAnswer
 }
 
-// Check value takes in a current value and a array of values to see if any pairs sum to 2020
+// Check to see if a triplet sums to 2020 and returns the answer
 func lookForTripletSum(sum int, entries []int) (int, error) {
 	for _, i := range entries {
 		for _, j := range entries {
