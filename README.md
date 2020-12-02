@@ -1,2 +1,2 @@
-# advent-of-code-2020
-Solving the https://adventofcode.com/ 2020 puzzles in Go!
+# advent-of-code
+Solving the https://adventofcode.com/ puzzles in Go!
