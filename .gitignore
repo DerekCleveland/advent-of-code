@@ -1,5 +1,5 @@
 # Binaries for programs and plugins
-advent-of-code-2020
+advent-of-code*
 *.exe
 *.exe~
 *.dll
@@ -14,3 +14,6 @@ advent-of-code-2020
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# OSX
+.DS_Store
