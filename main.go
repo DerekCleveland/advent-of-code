@@ -50,9 +50,11 @@ func main() {
 
 // Check value takes in a current value and a array of values to see if any pairs sum to 2020
 func checkValue(value int, valueArray []int) (int, error) {
-	for _, currValue := range valueArray {
-		if currValue+value == 2020 {
-			return currValue * value, nil
+	for _, x := range valueArray {
+		for _, y := range valueArray {
+			if x+y+value == 2020 {
+				return x * y * value, nil
+			}
 		}
 	}
 
